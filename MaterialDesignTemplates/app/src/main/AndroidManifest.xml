@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.valto.fi.template">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="android.valto.fi.template.activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.views.HideViews"
+            android:label="@string/title_activity_sub"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.views.UIElements"
+            android:label="@string/title_activity_uielements"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.activities.swipetorefresh.SwipeToRefreshActivity"
+            android:label="@string/title_activity_swipe_to_refresh"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.activities.swipetorefresh.SwipeToDismissActivity"
+            android:label="@string/title_activity_swipe_to_refresh"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.activities.DialogBoxesActivity"
+            android:label="@string/title_activity_dialog_boxes">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.activities.GoogleCardsActivity"
+            android:label="@string/title_activity_google_cards"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity"
+
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="android.valto.fi.template.activities.FadeToToolbarActivity"
+            android:label="@string/title_activity_fade_to_toolbar"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:theme="@style/SubActivityTheme"
+            android:name="android.valto.fi.template.activities.CollapseToToolbarActivity"
+            android:label="@string/title_activity_collapse_to_toolbar"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+        <activity
+            android:theme="@style/SubActivityTheme"
+            android:name="android.valto.fi.template.activities.CollapseTabsActivity"
+            android:parentActivityName="android.valto.fi.template.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.valto.fi.template.activities.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

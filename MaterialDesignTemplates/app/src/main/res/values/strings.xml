@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Material Design Template</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sub">SubActivity</string>
+
+    <string name="opened">Opened</string>
+    <string name="closed">Closed</string>
+
+    <array name="planets">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+    </array>
+    <string name="title_activity_fade_toolbar">FadeToolbar</string>
+    <string name="title_activity_uielements">UIElements</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="radioButton_name">RadioButton</string>
+    <string name="checkbox_name">New CheckBox</string>
+    <string name="simple_light_dialog">Simple Light Dialog</string>
+    <string name="list_light_dialog">List Light Dialog</string>
+    <string name="radio_light_dialog">Radio Light Dialog</string>
+    <string name="light_checkbox_dialog">Light Checkbox Dialog</string>
+    <string name="snackbar_button">SnackBar</string>
+    <string name="title_activity_swipe_to_refresh">SwipeToRefreshActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_dialog_boxes">DialogBoxesActivity</string>
+    <string name="title_activity_google_cards">GoogleCardsActivity</string>
+    <string name="title_activity_fade_to_toolbar">FadeToToolbarActivity</string>
+    <string name="title_activity_collapse_to_toolbar">CollapseToToolbarActivity</string>
+    <string name="title_activity_collapse_tabs">CollapseTabsActivity</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="star">Star</string>
+    <string name="paste">paste</string>
+</resources>
